@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta mame="author"content="Oscar Arturo">
+    <meta name="descripcion"content="Portafolio de Desarrollo">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title>Oscar Arturo | Desarrollo Web Front-End</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="imagenes/briefcase_3760074.png">
+    <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Iconos de bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!--CSS-->
+    <!--<link rel="stylesheet" href="ruta/del/archivo.css">-->
+    <link href="style.css"rel="stylesheet">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+  </head>
+<body>
+  <!--BARRA DE NAVEGACION-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+         <img src="imagenes/briefcase_3760074.png" width="50" alt="Logo de la pajina Web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+        </ul>
+       </div>
+    </div>
+  </nav>
+
+  <!--Seccion Hero-->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/foto1.jpg" alt="Foto de Oscar Arturo">
+        <h1>Hola, soy Oscar Arturo</h1>
+        <h2>Desarrollo sitios web y escribo articulos sobre programacion</h2>
+    </div>
+    <div class="hero-inferior">
+       <img class="hero-inferior-imagen img-fluid" src="imagenes/html-css.jpg" alt="Monitor, Laptop y logos de HTML, CSS, JavaScript y React">
+    </div>
+  </section>
+<!--SOBRE MI-->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoce a Oscar Arturo</h2>
+      <p class="seccion-texto">Soy Oscar Arturo Diaz, estudiante de Ingenieria en Sistemas Computacionales y desarrollador Web autodidacta desde el 2023, me emociona el mundo de la Programacion, comenso con la curiosidad de explorar la creacion de sitios web y aplicaciones. que me permite desarrollar habilidades técnicas y de resolución de problemas aplicables en diferentes industrias. Me gustaria trabajar en áreas como desarrollo de software, análisis de datos, ciberseguridad, gestión de proyectos y consultoría, etc. lo que me permitirá trabajar en equipo y establecer conexiones profesionales valiosas. </p>
+    </div>
+  </section>
+  <!--Experiencia-->
+  <selection class="experiencia seccion-clara">
+  <div class="container text-center">
+    <div class="row">
+      <!--Desarrollo Web-->
+      <div class="columna col-12 col-md-4">     <!--Aqui tenemos las tres areas,aliniadas cada una -->
+        <i class="bi bi-laptop"></i>
+       <p class="experiencia-titulo">Desarrollo web</p>
+       <p>Me encargo de construir, gestionar y mantener sitios y aplicaciones web. Sus tareas pueden incluir: Análisis del proyecto, Lógica de la aplicación, Arquitectura de los contenidos, Actualizaciones, Seguridad. </p>
+      <div class="badges-contenedor">
+        <span class="badge text-bg-primary">HTML</span>
+        <span class="badge text-bg-primary">CSS</span>
+        <span class="badge text-bg-primary">JavaScript</span>
+        <span class="badge text-bg-primary">React</span>
+      </div>
+      </div>
+      <!--Articulos-->
+      <div class="columna col-12 col-md-4">
+       <i class="bi bi-laptop"></i>
+       <p class="experiencia-titulo">Articulos</p>
+       <p>¿Qué es un Hackathon? Es una combinación de “Hack” y “marathon”. En este sentido, “hack” no se refiere a actividades maliciosas, sino a la creatividad y habilidad técnica para encontrar soluciones. </p>
+      <div class="badges-contenedor">
+        <span class="badge text-bg-primary">Escribir</span>
+        <span class="badge text-bg-primary">Editar</span>
+        <span class="badge text-bg-primary">Blogs</span>
+      </div>
+      </div>
+      <!--Experiencia de Estudiante-->
+      <div class="columna col-12 col-md-4"> <!--las columnas nos facilita que tan ancho va a hacer el elemento del tamaño del Dispositivo-->
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Estudiante</p>
+        <p>Desde que era pequeño siempre estaba con los ordenadores y móviles y todo eso. Siempre me ha gustado lo que es la informática. </p>
+       <div class="badges-contenedor">
+         <span class="badge text-bg-primary">freeCodeCam</span>
+         <span class="badge text-bg-primary">Desarrollo Web</span>
+         <span class="badge text-bg-primary">Python</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </selection>
+  <!--Proyectos-->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis Proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos Proyectos que he creado recientemente...</h3>
+  <!--Galerias de Proyectos-->
+  <div class="container text-center proyectos-contenedor">
+    <div class="row">
+      <!--Proyecto 1-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes/proy2.avif" alt="Proyecto 1">
+          <div class="overlay">
+            <p>Proyecto 1</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!--Se recomienda por segurida (noopener noreferrer)-->
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Proyecto 2-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes/proyecto1.jpg" alt="Proyecto 1">
+          <div class="overlay">
+            <p>Proyecto 2</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!--Se recomienda por segurida (noopener noreferrer)-->
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Proyecto 3-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes/python.jpg" alt="Proyecto 1">
+          <div class="overlay">
+            <p>Proyecto 3</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!--Se recomienda por segurida (noopener noreferrer)-->
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="https://github.com/" target="_black" rel="noopener noreferrer"
+  <button type="button" class="btn btn-info">
+    Ver CV
+  <i class="bi bi-arrow-right-circle-fill"></i>
+</button>
+</a>
+
+  </section>
+  <!--Proyectos-->
+  <section class="proyectos-recientes seccion-clara d-frex flex-column">
+  </section>
+  <!--Articulos-->
+  <section class="articulos justify-content-start">
+    <h2 class="seccion-titulo texto-negro">Articulos</h2>
+    <div class="card">
+      <div class="card-header">
+        Mas recientes
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_black" rel="noopener noreferrer">
+          <li class="list-group-item">
+            El decorador @property en Python - como usarlo, ventajas y sintaxis</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_black" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Python tutorial ciclos while -while True ejemplos de sintaxis y ciclos infinitos</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_black" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Python como escribir en un archivo- abrir, leer, escribir y otras funciones de archivos explicadas</li>
+        </a>
+      </ul>
+    </div>
+    <a href="https://www.freecodecamp.org/espanol/news/" target="_black" rel="noopener noreferrer"
+  <button type="button" class="btn btn-info">
+    Ver mas articulos
+  <i class="bi bi-arrow-right-circle-fill"></i>
+</button>
+</a>
+    </section>
+    <!--Testimonios-->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis companeros....</h3>
+    
+      <!--Cassusel-->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner"> <!--significa la parte interior del carusel-->
+        <div class="carousel-item active">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="imagenes/alumn1.jpg" alt="Foto de Laura">
+          <p class="testimonio-texto">Requiere un tipo de disciplina que no se encuentra muy a menudo en lugares de trabajo bien organizados, como las oficinas..</p>
+          <div class="testimonio-info">
+            <p class="companero">Laura</p>
+            <p class="cargo">Gerente de proyectos en Desarrollo Web</p>
+          </div>
+        </div>
+      </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="imagenes/alum2.jpeg" alt="Foto de Pedro">
+        <p class="testimonio-texto">Nadie puede escribir código de calidad continuamente durante horas.</p>
+        <div class="testimonio-info">
+          <p class="companero">Pedro</p>
+          <p class="cargo">Gerente de diseno de pagina Web</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="imagenes/alumn3.jpeg" alt="Foto de Alicia">
+        <p class="testimonio-texto">No es fácil, hay que aprender a administrar el tiempo, a no caer en el exceso de confianza ni de desperdicio del tiempo.</p>
+        <div class="testimonio-info">
+          <p class="companero">Alicia</p>
+          <p class="cargo">Director de Aprende a Programar</p>
+        </div>
+      </div>
+    </div>
+    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+    </section>
+    <!--Contacto-->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contactame si requieres de mis servicion
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--Pie de pagina (footer)-->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="imagenes/briefcase_3760074.png" alt="Logo del Portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los dias.<br>Creamos un proyecto</p> <!--<br> significa interrupcion de la linea-->
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.instagram.com/freeCodeCam" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://es-la.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+       </div>
+       <div class="derechos-de-autor">Creado por Oscar Arturo (2024) &#169;
+
+       </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
